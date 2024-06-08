@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  .page
+    header.container.style-module--wrapper-topbar#top-bar
+      .container-inner.style-module--inner-topbar
+        .logo
+          h3 The Lung Warrior
+          h4 Incorporated
+        .toggle
+    main#main-content
+      section.index-module--showcase
+        .hidden-without-js.container.style-module--wrapper-showcase
+          .container-inner.style-module--inner-showcase
+            svg(xmlns='http://www.w3.org/2000/svg', preserveaspectratio='xMidYMid slice', viewbox='0 0 100 100')
+              path.out-top(fill='#ef9f40', d='M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z')
+              path.in-top(fill='#95543e', d='M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z')
+              path.out-bottom(fill='#1d7150', d='M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z')
+              path.in-bottom(fill='#844653', d='M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z')
+            .style-module--text
+              h3 Let&rsquo;s help them
+              h2 Breathe Easy
+              p(style='max-width: 700px;')
+                | We are a non-for-profit organisation that is registered as a charity with the Australian Charities and Not for Profit Commission (ACNC). The organisation was founded in August of 2021 following a personal journey that is very special and close to our hearts.
+              a(href='#') Learn
+      section.index-module--email
+        .container.style-module--wrapper-email
+          .container-inner.grid.style-module--inner-email
+            h2.style-module--heading Want to be added to the email list!
+            .style-module--content 
+              form We saved you a spot!
+              p.style-module--terms By clicking send you'll receive occasional emails from Spotify Design. You always have the choice to unsubscribe within every email you receive.
+    footer
+      .text(style='width: 55dvw')
+        p
+          | The Lung Warrior Incorporated is registered as a charity with the Australian Charities and Non for Profit Commission | Endorsement as a deductible gift recipient under subdivisions 30-BA of the Income Tax Assessment Act 1997 | All Donations above $2.00 are tax deductible in Western Australia.
+        p(style='font-weight: 600; margin-top: 20px;')
+          | The Lung Warrior Incorporated acknowledges and pays respect to the traditional custodians of the land on which they work, live and play.
+      .text
+        ul.social
+          li
+            a(href='https://www.facebook.com/thelungwarriorincorporated')
+              img(src='https://i.ibb.co/x7P24fL/facebook.png')
+          li
+            a(href='#')
+              img(src='https://i.ibb.co/Wnxq2Nq/twitter.png')
+          li
+            a(href='#')
+              img(src='https://i.ibb.co/ySwtH4B/instagram.png')
+        p &copy; 2023 by The Lung Warrior Incorporated
+        p ABN 13 138 297 938
+        a(href='privacypolicy.html') Privacy Policy
+        a(href='#') info@thelungwarrior.org
+    a.fixedButton(href='')
+      .roundedFixedBtn
+        h4 Donate
+  .menu
+    ul
+      li
+        a(href='index.html') Home
+      li
+        a(href='#') News
+      li
+        a(href='#') Support
+      li
+        a(href='#') Blog
+      li
+        a(href='contact.html') Contact
